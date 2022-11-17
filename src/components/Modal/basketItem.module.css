@@ -1,0 +1,45 @@
+.basket-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  height: 10rem;
+
+  background-color: #3d3d3d;
+  color: #fff;
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.basket-img {
+  width: 8rem;
+}
+
+.basket-item--name {
+  font-size: 1.6rem
+}
+
+.basket-item--price {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.basket-form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  margin-left: auto;
+  font-size: 1.6rem;
+}
+
+.basket-form-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.amount {
+  font-size: .9rem;
+}

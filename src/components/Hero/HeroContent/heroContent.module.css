@@ -1,0 +1,61 @@
+.container {
+  flex: 0.75;
+}
+
+.bike {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+
+  background-color: #ffc7a5;
+  padding: 0.5rem 1rem;
+  border-radius: 110px;
+  -webkit-box-shadow:0px 14px 91px 6px rgba(219,167,90,0.22);
+  -moz-box-shadow: 0px 14px 91px 6px rgba(219,167,90,0.22);
+  box-shadow: 0px 14px 91px 6px rgba(219,167,90,0.22);
+}
+
+.bike-text {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #b35114;
+  padding: 0.5rem 1rem;
+}
+
+.bike-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #682f0b;
+}
+
+.title-text {
+  font-size: 8rem;
+  color: #2f2f2f;
+}
+
+.city-text {
+  color: #b35114;
+}
+
+.content {
+  margin-top: 3rem;
+}
+
+.content p {
+  width: 85%;
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  color: #666;
+  line-height: 1.8;
+}
+
+.content button {
+  padding: .75rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #47240e;
+  background-color: #f18e50;
+  border-radius: 110px;
+  border: none;
+  cursor: pointer;
+}

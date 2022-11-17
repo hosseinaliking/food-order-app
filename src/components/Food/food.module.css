@@ -1,0 +1,122 @@
+.container {
+  margin-top: 5rem;
+  height: 50vh;
+  position: relative;
+
+  max-width: 120rem;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.mySwiper {
+  margin-top: 4rem;
+  user-select: none;
+  cursor: grab;
+}
+
+.swiper-slide {
+  min-width: 30rem;
+  padding: 2rem;
+  background-color: rgba(244, 244, 244, 0.167);
+  border-radius: 11px;
+}
+
+.slide-img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.slide-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+.slide-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.slide-calory {
+  font-size: 1.3rem;
+  color: #6d6b6b;
+}
+
+.slide-price {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.doller-sign {
+  font-size: 1.2rem;
+}
+
+.container-button {
+  display: flex;
+  gap: 2rem;
+}
+
+.slider-button {
+  margin-top: 3rem;
+  background: none;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #fcc560;
+  color: #fff;
+  padding: .5rem 2rem;
+  cursor: pointer;
+}
+
+.container-button {
+  position: absolute;
+  top: -37px;
+  right: 12px;
+  z-index: 88;
+}
+
+.slider-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: 2.5rem;
+}
+
+.label {
+  font-size: 1.4rem;
+}
+
+.input {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.add-button {
+  margin-left: auto;
+  border: none;
+  background-color: #fcc560;
+  color: rgb(66, 47, 10);
+  padding: .5rem 2.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.loading {
+  width: 15rem;
+ 
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

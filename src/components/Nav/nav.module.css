@@ -1,0 +1,93 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 0px 10px 15px -15px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 120rem;
+  margin-inline: auto;
+  padding: 1rem;
+  min-height: 2rem;
+
+  position: relative;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-text {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.container-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+}
+
+.menu-item {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.container-basket {
+  display: flex;
+  cursor: pointer;
+
+  position: relative;
+}
+
+.basket-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.basket-number {
+  width: .5rem;
+  height: .5rem;
+  background-color: #FF6464;
+  color: white;
+  padding: 1rem;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  left: 23px;
+  bottom: 6px;
+}
+
+.container-avatar{
+  display: flex;
+}
+
+.avatar {
+  width: 3rem;
+}
